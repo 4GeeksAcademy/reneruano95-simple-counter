@@ -4,17 +4,26 @@ body,
   height: 100%;
 }
 
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .bigCounter {
-  text-align: center;
-  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bigCounter div {
-  display: inline-block;
-  font-size: 60px;
-  line-height: 60px;
-  background: #101010;
+  font-size: 120px;
+  line-height: 120px;
   color: white;
   padding: 10px;
   margin: 3px;
+}
+
+.btn {
+  font-size: 60px;
 }
